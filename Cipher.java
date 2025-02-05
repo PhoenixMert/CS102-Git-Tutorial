@@ -39,7 +39,7 @@ public class Cipher
 
     // replaces the given input char based on the given isEncrypt variable
     // if isEncrypt == true -> original to encrypted
-    // if isEncrypt == false -> encrypted to original
+    // if isEncrypt == false -> encrypted to origina
     // works only when the input char is included in our alphabet variables
     // should not replace symbols or upper case letters, return input char in those cases
     private char replaceChar(char inputChar, boolean isEncrypt) {
